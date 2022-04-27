@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="644dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="39dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/Nomor1"
+        android:layout_width="385dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="370dp"
+        android:hint="NIM"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tanggallhari1"
+        android:layout_width="385dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="436dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="237dp"
+        android:hint="Tanggal lahir"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/JenisKelamin1"
+        android:layout_width="385dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="502dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="171dp"
+        android:hint="Jenis Kelamin"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Alamat1"
+        android:layout_width="385dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="571dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="102dp"
+        android:hint="Alamat"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Namalengkap"
+        android:layout_width="385dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="303dp"
+        android:hint="Nama Lengkap"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="190dp"
+        android:layout_marginBottom="686dp"
+        android:text="Form"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="125dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="551dp"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
